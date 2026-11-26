@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Music analysis room</title>
+<style>
+  :root { color-scheme: light dark; --paper: #f3ead8; --ink: #2b2118; --wood: #6b4a2f; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #1f1a15; --ink: #e8dcc4; --wood: #a07850; } }
+  html, body { height: 100%; margin: 0; }
+  body { display: grid; place-items: center; background: var(--paper); color: var(--ink);
+         font: 18px/1.5 Georgia, "Times New Roman", serif; }
+  main { max-width: 30rem; padding: 2rem; text-align: center; }
+  h1 { font-weight: normal; font-size: 2rem; margin: 0 0 .5rem; }
+  .staff { height: 2.4rem; margin: 1.5rem auto; width: 70%;
+           background: repeating-linear-gradient(to bottom, var(--wood) 0 1px, transparent 1px 0.6rem); opacity: .5; }
+  p { margin: .25rem 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Music analysis room</h1>
+  <div class="staff" aria-hidden="true"></div>
+  <p>A composer's room for studying and composing music.</p>
+  <p>Being built. Nothing to play yet.</p>
+</main>
+</body>
+</html>

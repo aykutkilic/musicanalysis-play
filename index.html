@@ -2,27 +2,49 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <title>Music analysis room</title>
-<style>
-  :root { color-scheme: light dark; --paper: #f3ead8; --ink: #2b2118; --wood: #6b4a2f; }
-  @media (prefers-color-scheme: dark) { :root { --paper: #1f1a15; --ink: #e8dcc4; --wood: #a07850; } }
-  html, body { height: 100%; margin: 0; }
-  body { display: grid; place-items: center; background: var(--paper); color: var(--ink);
-         font: 18px/1.5 Georgia, "Times New Roman", serif; }
-  main { max-width: 30rem; padding: 2rem; text-align: center; }
-  h1 { font-weight: normal; font-size: 2rem; margin: 0 0 .5rem; }
-  .staff { height: 2.4rem; margin: 1.5rem auto; width: 70%;
-           background: repeating-linear-gradient(to bottom, var(--wood) 0 1px, transparent 1px 0.6rem); opacity: .5; }
-  p { margin: .25rem 0; }
-</style>
+<meta name="theme-color" content="#1d140d">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%236b4a34'/%3E%3Cpath d='M6 9h20M6 13h20M6 17h20M6 21h20' stroke='%23f3ead8' stroke-width='1.3'/%3E%3Cellipse cx='13' cy='21' rx='3.4' ry='2.5' fill='%23f3ead8'/%3E%3Cpath d='M16.2 21V8' stroke='%23f3ead8' stroke-width='1.6'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="v/dbe151e-20261126083749/client/style.css">
 </head>
 <body>
-<main>
-  <h1>Music analysis room</h1>
-  <div class="staff" aria-hidden="true"></div>
-  <p>A composer's room for studying and composing music.</p>
-  <p>Being built. Nothing to play yet.</p>
-</main>
+<canvas id="view"></canvas>
+<header id="bar">
+  <button id="shelfBtn" title="To the bookshelf">Shelf</button><button id="deskBtn" title="To the desk">Desk</button><button id="pianoBtn" title="To the piano">Piano</button>
+  <span class="sep"></span>
+  <button id="mapBtn" title="Read the map sheet">Map</button><button id="rollBtn" title="Read the piano roll">Roll</button>
+  <b id="heading">Take a book from the shelf</b><span class="grow"></span>
+  <button id="playBtn" class="main" disabled>▶ Play</button>
+  <label class="tempo" title="Tempo">♩<input id="rate" type="range" min="50" max="150" value="100"><span id="rateOut">100%</span></label>
+  <button id="addBtn" title="Put a MIDI or MusicXML file on the shelf">+ Add a piece</button>
+  <input id="file" type="file" accept=".mid,.midi,.xml,.musicxml,.mxl" hidden>
+</header>
+<div id="rollBar" hidden>
+  <label>Pitch <select id="axis"><option value="chromatic">chromatic</option><option value="degree">scale degrees</option></select></label>
+  <label>Bars <select id="span"><option>2</option><option selected>4</option><option>6</option><option>8</option></select></label>
+  <button id="prevBars" title="Earlier">‹</button><button id="nextBars" title="Later">›</button>
+  <span id="legend"></span>
+</div>
+<aside id="card" hidden>
+  <button class="x" id="cardX" title="Close">×</button>
+  <p class="layer" id="cardLayer"></p>
+  <h2 id="cardTitle"></h2>
+  <p id="cardSure"></p>
+  <p id="cardWhy"></p>
+  <div id="cardAlts"></div>
+  <div class="row"><button id="cardPlay">▶ Hear it</button><button id="cardUnpin" hidden>Unpin</button></div>
+</aside>
+<dialog id="book">
+  <h2 id="bookTitle"></h2>
+  <ul id="movements"></ul>
+  <button class="shut">Close</button>
+</dialog>
+<div id="toasts"></div>
+<div id="drop" hidden>Drop a MIDI or MusicXML file to put it on the shelf</div>
+<footer id="credit">Mozart's notes from the <a href="https://github.com/DCMLab/mozart_piano_sonatas" target="_blank" rel="noopener">DCML Mozart sonatas</a> (CC BY-NC-SA 4.0) · sound: GeneralUser GS, SpessaSynth · three.js</footer>
+<script type="module" src="v/dbe151e-20261126083749/client/main.js"></script>
 </body>
 </html>

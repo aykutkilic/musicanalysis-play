@@ -1,0 +1,9 @@
+The pieces in this folder are the notes (pitch, onset, duration, staff, voice) of the
+DCML Mozart Piano Sonatas corpus, converted to this program's format:
+
+  Hentschel, J., Neuwirth, M., Rohrmeier, M. (2021). The Annotated Mozart Sonatas:
+  Score, Harmony, and Cadence. Transactions of the International Society for Music
+  Information Retrieval 4(1). https://github.com/DCMLab/mozart_piano_sonatas
+
+Licensed CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/), as are
+these converted files. Not for commercial use. The corpus's annotations are not included.

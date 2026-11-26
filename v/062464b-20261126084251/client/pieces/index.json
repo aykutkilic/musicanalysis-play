@@ -1,0 +1,400 @@
+{
+ "books": [
+  {
+   "id": "K279",
+   "title": "Sonata no. 1 in C major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K279-1",
+     "title": "Allegro",
+     "bars": 100
+    },
+    {
+     "id": "K279-2",
+     "title": "Andante",
+     "bars": 76
+    },
+    {
+     "id": "K279-3",
+     "title": "Allegro",
+     "bars": 160
+    }
+   ]
+  },
+  {
+   "id": "K280",
+   "title": "Sonata no. 2 in F major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K280-1",
+     "title": "Allegro assai",
+     "bars": 144
+    },
+    {
+     "id": "K280-2",
+     "title": "Adagio",
+     "bars": 60
+    },
+    {
+     "id": "K280-3",
+     "title": "Presto",
+     "bars": 192
+    }
+   ]
+  },
+  {
+   "id": "K281",
+   "title": "Sonata no. 3 in B flat major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K281-1",
+     "title": "Allegro",
+     "bars": 109
+    },
+    {
+     "id": "K281-2",
+     "title": "Andante amoroso",
+     "bars": 106
+    },
+    {
+     "id": "K281-3",
+     "title": "Rondeau – Allegro",
+     "bars": 163
+    }
+   ]
+  },
+  {
+   "id": "K282",
+   "title": "Sonata no. 4 in E flat major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K282-1",
+     "title": "Adagio",
+     "bars": 36
+    },
+    {
+     "id": "K282-2",
+     "title": "Menuetto I and Menuetto II",
+     "bars": 76
+    },
+    {
+     "id": "K282-3",
+     "title": "Allegro",
+     "bars": 104
+    }
+   ]
+  },
+  {
+   "id": "K283",
+   "title": "Sonata no. 5 in G major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K283-1",
+     "title": "Allegro",
+     "bars": 122
+    },
+    {
+     "id": "K283-2",
+     "title": "Andante",
+     "bars": 41
+    },
+    {
+     "id": "K283-3",
+     "title": "Presto",
+     "bars": 277
+    }
+   ]
+  },
+  {
+   "id": "K284",
+   "title": "Sonata no. 6 in D major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K284-1",
+     "title": "Allegro",
+     "bars": 127
+    },
+    {
+     "id": "K284-2",
+     "title": "Rondo en Polonaise - Andante",
+     "bars": 92
+    },
+    {
+     "id": "K284-3",
+     "title": "Andante",
+     "bars": 287
+    }
+   ]
+  },
+  {
+   "id": "K309",
+   "title": "Sonata no. 7 in C major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K309-1",
+     "title": "Allegro con spirito",
+     "bars": 155
+    },
+    {
+     "id": "K309-2",
+     "title": "Andante un poco adagio",
+     "bars": 79
+    },
+    {
+     "id": "K309-3",
+     "title": "Rondeau – Allegretto grazioso",
+     "bars": 253
+    }
+   ]
+  },
+  {
+   "id": "K310",
+   "title": "Sonata no. 8 in A minor",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K310-1",
+     "title": "Allegro con spirito",
+     "bars": 133
+    },
+    {
+     "id": "K310-2",
+     "title": "Andante con espressione",
+     "bars": 88
+    },
+    {
+     "id": "K310-3",
+     "title": "Rondeau – Allegro",
+     "bars": 253
+    }
+   ]
+  },
+  {
+   "id": "K311",
+   "title": "Sonata no. 9 in D major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K311-1",
+     "title": "Allegro maestoso",
+     "bars": 112
+    },
+    {
+     "id": "K311-2",
+     "title": "Andante cantabile con espressione",
+     "bars": 94
+    },
+    {
+     "id": "K311-3",
+     "title": "Presto",
+     "bars": 272
+    }
+   ]
+  },
+  {
+   "id": "K330",
+   "title": "Sonata no. 10 in C major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K330-1",
+     "title": "Allegro moderato",
+     "bars": 150
+    },
+    {
+     "id": "K330-2",
+     "title": "Andante cantabile",
+     "bars": 70
+    },
+    {
+     "id": "K330-3",
+     "title": "Allegretto",
+     "bars": 171
+    }
+   ]
+  },
+  {
+   "id": "K331",
+   "title": "Sonata no. 11 in A major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K331-1",
+     "title": "Andante grazioso",
+     "bars": 137
+    },
+    {
+     "id": "K331-2",
+     "title": "Menuetto and Trio",
+     "bars": 101
+    },
+    {
+     "id": "K331-3",
+     "title": "Alla Turca",
+     "bars": 137
+    }
+   ]
+  },
+  {
+   "id": "K332",
+   "title": "Sonata no. 12 in F major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K332-1",
+     "title": "Allegro",
+     "bars": 229
+    },
+    {
+     "id": "K332-2",
+     "title": "Adagio",
+     "bars": 40
+    },
+    {
+     "id": "K332-3",
+     "title": "Allegro assai",
+     "bars": 245
+    }
+   ]
+  },
+  {
+   "id": "K333",
+   "title": "Sonata no. 13 in B flat major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K333-1",
+     "title": "Allegro",
+     "bars": 167
+    },
+    {
+     "id": "K333-2",
+     "title": "Andante cantabile",
+     "bars": 83
+    },
+    {
+     "id": "K333-3",
+     "title": "Allegretto grazioso",
+     "bars": 227
+    }
+   ]
+  },
+  {
+   "id": "K457",
+   "title": "Sonata no. 14 in C minor",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K457-1",
+     "title": "Molto allegro",
+     "bars": 185
+    },
+    {
+     "id": "K457-2",
+     "title": "Adagio",
+     "bars": 57
+    },
+    {
+     "id": "K457-3",
+     "title": "Allegro assai",
+     "bars": 320
+    }
+   ]
+  },
+  {
+   "id": "K533",
+   "title": "Sonata no. 15 in F major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K533-1",
+     "title": "Allegro",
+     "bars": 241
+    },
+    {
+     "id": "K533-2",
+     "title": "Andante",
+     "bars": 122
+    },
+    {
+     "id": "K533-3",
+     "title": "Rondo – Allegretto",
+     "bars": 188
+    }
+   ]
+  },
+  {
+   "id": "K545",
+   "title": "Sonata no. 16 in C major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K545-1",
+     "title": "Allegro",
+     "bars": 73
+    },
+    {
+     "id": "K545-2",
+     "title": "Andante",
+     "bars": 74
+    },
+    {
+     "id": "K545-3",
+     "title": "Rondo – Allegretto",
+     "bars": 74
+    }
+   ]
+  },
+  {
+   "id": "K570",
+   "title": "Sonata no. 17 in B flat major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K570-1",
+     "title": "Allegro",
+     "bars": 209
+    },
+    {
+     "id": "K570-2",
+     "title": "Adagio",
+     "bars": 56
+    },
+    {
+     "id": "K570-3",
+     "title": "Allegretto",
+     "bars": 91
+    }
+   ]
+  },
+  {
+   "id": "K576",
+   "title": "Sonata no. 18 in D major",
+   "composer": "W. A. Mozart",
+   "movements": [
+    {
+     "id": "K576-1",
+     "title": "Allegro",
+     "bars": 162
+    },
+    {
+     "id": "K576-2",
+     "title": "Adagio",
+     "bars": 67
+    },
+    {
+     "id": "K576-3",
+     "title": "Allegretto",
+     "bars": 189
+    }
+   ]
+  }
+ ]
+}

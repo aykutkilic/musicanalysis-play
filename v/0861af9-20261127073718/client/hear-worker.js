@@ -1,1 +1,0 @@
-import{e as r}from"./chunk-SYWHOBND.js";import{C as o}from"./chunk-NZKVPS6E.js";onmessage=t=>{let{pcm:e,sr:a,meta:c}=t.data;try{let s=r(e,a,c,(m,p)=>postMessage({progress:m,what:p}));postMessage({packed:o(s)})}catch(s){postMessage({error:String(s&&s.stack||s)})}};
